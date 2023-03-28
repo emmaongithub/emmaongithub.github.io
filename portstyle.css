@@ -55,7 +55,7 @@ body {
 
 /* Divs */
 div.gamemachine {
-  background-color: #eee;
+  background-color: blue;
   width: 100%;
   aspect-ratio: 2.5/1;
   border-radius: 10px;
