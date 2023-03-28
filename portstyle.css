@@ -55,7 +55,7 @@ body {
 
 /* Divs */
 div.gamemachine {
-  background-color: blue;
+  background-color: red;
   width: 100%;
   aspect-ratio: 2.5/1;
   border-radius: 10px;
@@ -139,11 +139,11 @@ div.gamescreen h1 {
 }
 
 /* Background */
-body {
+html {
   background-image: url('Pixelated Star Background.gif');
   background-size: 50%;
   height: 100vh;
-    padding:0;
+  padding:0;
     margin:0;
 }
 
