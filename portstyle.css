@@ -63,7 +63,7 @@ div.gamemachine {
 }
 
 .gamescreen {
-  background-color: black;
+  background-color: pink;
   border: 5px solid #000000;
   border-radius: 10px;
   height: 90%;
@@ -72,6 +72,7 @@ div.gamemachine {
   border-bottom: 2px solid #b3b3b3;
   border-left: 1px solid #b3b3b3;
   border-right: 1px solid #b3b3b3;
+  position: relative;
 }
 
 div.gamebar {
@@ -85,9 +86,7 @@ div.gamebar {
   box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
 
-.nametag {
-  font-size: 4vw;
-}
+
 
 /* Tablet Resizing */
 @media screen and (max-width: 750px) {
@@ -97,9 +96,7 @@ div.gamebar {
   .right {
     display: none;
   }
-  .nametag {
-    font-size: 10vw;
-  }
+  
 }
 
 /* Phone Resizing */
@@ -125,9 +122,7 @@ div.gamebar {
   .middle {
     display: none;
   }
-  .nametag {
-    font-size: 10vw;
-  }
+ 
 }
 
 /* Background */
