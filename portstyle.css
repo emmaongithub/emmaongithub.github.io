@@ -1,0 +1,144 @@
+
+/*Background*/
+
+.right {align-content: end ;}
+
+/* Columns */
+.column {
+  width: 50%;
+  float: left;
+}
+
+.middle {
+  width: 50%;
+}
+
+.side {
+  width: 25%;
+}
+
+.left {
+  padding: 1%;
+  padding-left: 2%;
+}
+
+/* Page Edits */
+h1,
+h2 {
+  font-family: 'SilkScreen';
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+label {
+  color: black;
+}
+
+img {
+  max-width: 25%;
+}
+
+body {
+  font-family: 'Share Tech Mono';
+  background-color: black;
+  color: white;
+}
+
+/* Cross Button */
+#cross {
+  margin: auto;
+  width: 50%;
+  aspect-ratio: 1/1;
+  background: linear-gradient(to bottom, transparent 35%, pink 35%, pink 65%, transparent 65%), linear-gradient(to right, transparent 35%, pink 35%, pink 65%, transparent 65%);
+}
+
+/* Divs */
+div.gamemachine {
+  background-color: #eee;
+  width: 100%;
+  aspect-ratio: 2.5/1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.gamescreen {
+  background-color: black;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  height: 90%;
+  aspect-ratio: 2/1;
+  border-top: 2px solid #b3b3b3;
+  border-bottom: 2px solid #b3b3b3;
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+}
+
+div.gamebar {
+  background-color: #eee;
+  width: 100%;
+  max-width: 100wv;
+  border-radius: 10px;
+  padding: 10px;
+  border-bottom: 5px solid #b3b3b3;
+  border-top: 2px solid #b3b3b3;
+  box-shadow: 5px 5px rgba(0,0,0,0.1);
+}
+
+.nametag {
+  font-size: 4vw;
+}
+
+/* Tablet Resizing */
+@media screen and (max-width: 750px) {
+  .left {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+  .nametag {
+    font-size: 10vw;
+  }
+}
+
+/* Phone Resizing */
+@media screen and (max-width: 500px) {
+  div.gamemachine {
+    width: 100%;
+    max-width: 43vh;
+    aspect-ratio: 1/1;
+    box-shadow: none;
+  }
+  div.gamescreen {
+    aspect-ratio: 1/1;
+  }
+  div.gamebar {
+    max-width: 43vh;
+  }
+  .right {
+    display: none;
+  }
+  .side {
+    width: 50%;
+  }
+  .middle {
+    display: none;
+  }
+  .nametag {
+    font-size: 10vw;
+  }
+}
+
+/* Background */
+body {
+  background-image: url('Pixelated Star Background.gif');
+  background-size: 50%;
+  height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+body{ margin:0 auto; 
+display:flex; flex-direction:column; justify-content:center;}
