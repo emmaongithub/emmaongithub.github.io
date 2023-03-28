@@ -72,6 +72,7 @@ div.gamemachine {
   border-bottom: 2px solid #b3b3b3;
   border-left: 1px solid #b3b3b3;
   border-right: 1px solid #b3b3b3;
+  
 }
 
 div.gamebar {
@@ -87,6 +88,9 @@ div.gamebar {
 
 .nametag {
   font-size: 4vw;
+}
+div.gamescreen h1 {
+  font-size: 2em;
 }
 
 /* Tablet Resizing */
@@ -109,10 +113,13 @@ div.gamebar {
     max-width: 43vh;
     aspect-ratio: 1/1;
     box-shadow: none;
+}
   }
   div.gamescreen {
     aspect-ratio: 1/1;
-    maxwidth: 400px;
+      max-width: 100%;
+      overflow: hidden;
+    }
   }
   div.gamebar {
     max-width: 43vh;
