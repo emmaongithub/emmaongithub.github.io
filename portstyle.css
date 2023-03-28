@@ -72,7 +72,9 @@ div.gamemachine {
   border-bottom: 2px solid #b3b3b3;
   border-left: 1px solid #b3b3b3;
   border-right: 1px solid #b3b3b3;
-  
+  width: 100%;
+  overflow: hidden;
+  max-width: 100wv;
 }
 
 div.gamebar {
