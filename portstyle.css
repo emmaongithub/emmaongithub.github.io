@@ -112,7 +112,7 @@ div.gamebar {
   }
   div.gamescreen {
     aspect-ratio: 1/1;
-    maxwidth: 40%;
+    maxwidth: 400px;
   }
   div.gamebar {
     max-width: 43vh;
